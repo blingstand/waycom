@@ -3,7 +3,6 @@
 -----------
 
 # Table des matières
-(utilisateur)
 1. [Présentation](#Présentation)
 2. [Context](#Context)
 3. [Arborescence](#Arborescence)
@@ -28,30 +27,37 @@ Reformulation du problème :
 Vous vous attacherez à livrer cette réalisation comme vous le feriez dans une situation classique de projet.
 > Cela implique pour moi de justifier la logique, la représenter schématiquement et de fournir une batterie de tests. 
 
-# Arborescence : 
+# Arborescence 
 
 Waycom 
-	- appel
-		+ comptage_mots.py			| réponds aux problèmes en utilisant le module worker.py
-		+ test.py 					| tests pour le class Worker
-		+ worker.py 				| modules pour traiter les données
+>	- appel
+		+ comptage_mots.py		| réponds aux problèmes en utilisant le module worker.py
+		+ test.py 				| tests pour le class Worker
+		+ worker.py 			| modules pour traiter les données
 
-	-comptage
-		+ pic_appel.py 				| réponds aux problèmes en utilisant le module worker.py
-		+ test.py 					| tests pour le class Worker
-		+ worker.py 				| modules pour traiter les données
+>	-comptage
+		+ pic_appel.py 			| réponds aux problèmes en utilisant le module worker.py
+		+ test.py 				| tests pour le class Worker
+		+ worker.py 			| modules pour traiter les données
 
-# Installation:
+# Installation 
+
 > $ git init 
+
 > $ git remote add origin [lien vers le projet.git]
+
 > $ git pull origin master
 
-# Utilisation : 
+# Utilisation 
+
 > $ cd comptage
+
 > $ echo "foo bar baz foo" | ./comptage_mot.py
+
 > $ cat /etc/services | ./comptage_mot.py
 
 > $ cd ../appel
+
 > $ cat calls.txt | ./pic_appel.py
 
 
