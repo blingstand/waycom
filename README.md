@@ -30,15 +30,16 @@ Vous vous attacherez à livrer cette réalisation comme vous le feriez dans une 
 # Arborescence 
 
 Waycom 
->	- appel
-		+ comptage_mots.py		| réponds aux problèmes en utilisant le module worker.py
-		+ test.py 				| tests pour le class Worker
-		+ worker.py 			| modules pour traiter les données
+>	- appel\
+		+ comptage_mots.py		| réponds aux problèmes en utilisant le module worker.py\
+		+ test.py			| tests pour le class Worker\
+		+ worker.py 			| modules pour traiter les données\
+		
 
->	-comptage
-		+ pic_appel.py 			| réponds aux problèmes en utilisant le module worker.py
-		+ test.py 				| tests pour le class Worker
-		+ worker.py 			| modules pour traiter les données
+>	- comptage\
+		+ pic_appel.py 			| réponds aux problèmes en utilisant le module worker.py\
+		+ test.py 			| tests pour le class Worker\
+		+ worker.py 			| modules pour traiter les données\
 
 # Installation 
 
